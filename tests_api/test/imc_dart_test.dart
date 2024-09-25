@@ -4,7 +4,7 @@ import '../imc.dart';
 
 void main() {
 
-  // Lyfecicle
+  // Lifecycle
   setUp(()=> null)); // Runs before the tests.
   tearDown(() => null ));  // Runs after the tests.
   
