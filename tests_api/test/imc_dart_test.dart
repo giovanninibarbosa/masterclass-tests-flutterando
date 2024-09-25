@@ -3,6 +3,14 @@ import 'package:test/test.dart';
 import '../imc.dart';
 
 void main() {
+
+  // Lyfecicle
+  setUp(()=> null)); // Runs before the tests.
+  tearDown(() => null ));  // Runs after the tests.
+  
+  setUpAll(() => null)); // Runs before all the tests.
+  tearDownAll(() => null)); // Runs afters all the tests.
+
   test('Deve efetuar o calculo do IMC', () {
     final result = calcIMC(1.78, 64);
 
