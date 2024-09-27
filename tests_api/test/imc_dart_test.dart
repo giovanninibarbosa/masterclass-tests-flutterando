@@ -4,8 +4,14 @@ import '../imc.dart';
 
 void main() {
   test('Deve efetuar o calculo do IMC', () {
-    final result = calcIMC(1.78, 64);
+    // Arrange
+    final peso = 64.0;
+    final altura = 1.78;
 
+    // Act
+    final result = calcIMC(altura, peso);
+
+    // Assert
     expect(result, equals(20.199469763918696));
   });
 
