@@ -22,3 +22,7 @@
  1º Arrange // Prepare to run the test.
  2º Act // Execute the test.
  3º Assert // Result expected after the Act (Action);
+
+ ## Matchers
+
+ - Os mais utilizados são: `isA<>()` e `equals()`;
