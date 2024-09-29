@@ -25,4 +25,10 @@
 
  ## Matchers
 
- - Os mais utilizados são: `isA<>()` e `equals()`;
+ - The most used: `isA<>()` e `equals()`;
+
+ ## Async
+
+ - Should check if the request completes: `completes`;
+ - Should have the exact return of request: 'completion(isA<Type<Type>>())'
+ - Should return the same content of request: 'completion(equals('content'))';
